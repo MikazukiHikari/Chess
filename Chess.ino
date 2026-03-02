@@ -155,7 +155,8 @@ void checkTouch() {
             } else if ((piece_code == 6 && board[row][col] == 4) || (piece_code == 12 && board[row][col] == 10)) {
                 // 清除之前的紅色框框
                 clear_previous_selection(2);
-                // 玩家選擇城堡
+                
+                // 玩家選擇移動目標位置
                 chooseRow = row;
                 chooseCol = col;
 
